@@ -38,7 +38,8 @@
 
             <center>
                 <h1 style="color: crimson"> Laravel welcom page :) </h1>
-                <a href="{{}}"></a>
+                <a href="/hello">move to hello page</a>
+              
             </center>
            
         </div>
