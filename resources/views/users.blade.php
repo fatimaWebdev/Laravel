@@ -1,1 +1,2 @@
-<h1>hello {{$name}}</h1>
+<x-header data="users compnent header" />
+<h1>hello users</h1>

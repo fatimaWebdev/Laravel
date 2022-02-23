@@ -17,12 +17,13 @@ use Illuminate\Support\Facades\Route;
     return view('hello');
 });*/
 
-Route::get('/users/{name}', function () {
+/*Route::get('/users/{name}', function () {
     return view(|"name",['name']=>$name);
-});
+});*/
 
 
 
 //Route::view("welcome",'welcome')-> name('welcome');
 
-
+Route::view("users",'users');
+Route::view("about",'about');
