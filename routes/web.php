@@ -13,9 +13,9 @@ use app\Http\Controllers\PostController;
 |
 */
 
-/*Route::get('/hello', function () {
-    return view('hello');
-});*/
+Route::get('/', function () {
+    return view('hh');
+});
 
 /*Route::get('/users/{name}', function () {
     return view(|"name",['name']=>$name);
@@ -25,8 +25,8 @@ use app\Http\Controllers\PostController;
 
 //Route::view("welcome",'welcome')-> name('welcome');
 
-Route::view("users",'users');
+/*Route::view("users",'users');
 Route::view("about",'about');
 
 Route::post("login",[PostController::class,'getData' ]);
-Route::view("ff",'login');
+Route::view("ff",'login');*/
