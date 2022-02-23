@@ -13,11 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/hello', function () {
+/*Route::get('/hello', function () {
     return view('hello');
+});*/
+
+Route::get('/users/{name}', function () {
+    return view(|"name",['name']=>$name);
 });
 
 
-Route::view("welcome",'welcome')-> name('welcome');
+
+//Route::view("welcome",'welcome')-> name('welcome');
 
 
