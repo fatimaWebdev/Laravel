@@ -13,7 +13,7 @@ use app\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/h', function () {
     return view('hh');
 });
 
