@@ -15,7 +15,7 @@ class header extends Component
     public function __construct($data)
     {
         //
-       $name->name=$data;
+       //$name->name=$data;
     }
  
     /**
