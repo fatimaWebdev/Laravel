@@ -1,7 +1,12 @@
 <?php
 
+namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Route;
 use app\Http\Controllers\PostController;
+use App\Http\Controller\ConUsers;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -42,3 +47,10 @@ Route::get('/serves', function(){
 Route::get('/app', function(){
     return view('app');
 });
+//Route::post("conusers",[PostController::class,'getData' ]);
+Route::post('/conusers',GetController::class . '@index');
+//Route::post("/conusers",[ConUsers::class,'getData']);
+// Route::get('/conusers', function () {
+// dd('asgsd');
+// });
+Route::view("login2",'user');
