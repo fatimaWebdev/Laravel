@@ -2,10 +2,6 @@
 
 @section('content')
     
-
-
-<h1>About Page</h1>
-<p>Welcome to about pade =) </p>
-
 @endsection
-
+<h1>Welcome to laravel</h1>
+<p>Im learing laravel :) </p>
