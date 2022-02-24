@@ -30,7 +30,15 @@ Route::get('/h', function () {
 Route::post("login",[PostController::class,'getData' ]);
 Route::view("ff",'login');*/
 
-Route::view("index".'index');
-Route::view("about",'about');
-Route::view("serves",'serves');
-Route::view("app",'app');
+Route::get('/index', function(){
+    return view('index');
+});
+Route::get('/about', function(){
+    return view('about');
+});
+Route::get('/serves', function(){
+    return view('serves');
+});
+Route::get('/app', function(){
+    return view('app');
+});
