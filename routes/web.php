@@ -54,3 +54,9 @@ Route::post('/conusers',GetController::class . '@index');
 // dd('asgsd');
 // });
 Route::view("login2",'user');
+Route::view('noaccess','noaccess');
+Route::view('home','home');
+
+Route::group(['middlewere'=>['protectedPage']] ,function(){
+    Route::view("users",'users');
+});
